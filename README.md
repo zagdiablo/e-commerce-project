@@ -1,2 +1,2 @@
-# e-commerce-project
+# eCommerceProject
 Tugas matkul E-commerce
