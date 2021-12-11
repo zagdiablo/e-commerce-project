@@ -3,5 +3,38 @@
 
 
 {% block content %}
-    <h1>Store page</h1>
+    <div class="row">
+        <div class="col-lg-4">
+            <img class='thumbnail' src="{% static 'images/dummyItemImage.png' %}" alt="">
+            <div class="box-element product">
+                <h6><strong>Barang</strong></h6>
+                <hr>
+                <button class="btn btn-outline-secondary">+ ke keranjang</button>
+                <a href="#" class="btn btn-outline-success">Lihat</a>
+                <h4 style="display: inline-block; float: right;">Rp. 10.000</h4>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <img class='thumbnail' src="{% static 'images/dummyItemImage.png' %}" alt="">
+            <div class="box-element product">
+                <h6><strong>Barang</strong></h6>
+                <hr>
+                <button class="btn btn-outline-secondary">+ ke keranjang</button>
+                <a href="#" class="btn btn-outline-success">Lihat</a>
+                <h4 style="display: inline-block; float: right;">Rp. 10.000</h4>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <img class='thumbnail' src="{% static 'images/dummyItemImage.png' %}" alt="">
+            <div class="box-element product">
+                <h6><strong>Barang</strong></h6>
+                <hr>
+                <button class="btn btn-outline-secondary">+ ke keranjang</button>
+                <a href="#" class="btn btn-outline-success">Lihat</a>
+                <h4 style="display: inline-block; float: right;">Rp. 10.000</h4>
+            </div>
+        </div>
+    </div>
 {% endblock content %}
