@@ -13,8 +13,8 @@
 
                 <table class="table">
                     <tr>
-                        <th><h5>Jumlah barang: <strong>{{order.get_cart_items}}</strong></h5></th>
-                        <th><h5>Total harga: <strong>Rp. {{order.get_cart_total|floatformat:0}}</strong></h5></th>
+                        <th><h5>Jumlah: <strong>{{order.get_cart_items}}</strong></h5></th>
+                        <th><h5>Total: <strong>Rp. {{order.get_cart_total|floatformat:0}}</strong></h5></th>
                         <th>
                             <a style="float: right; margin: 5px;" href="{% url 'checkout' %}" class="btn btn-success">Checkout</a>
                         </th>
